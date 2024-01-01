@@ -28,6 +28,7 @@ def color_coding(genre):
 
 colors = netflix_movies["genre"].apply(color_coding)
 
+# Create scatterplot to show durations of movies by genre
 fig = plt.figure()
 
 x = netflix_movies['release_year']
